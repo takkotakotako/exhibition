@@ -105,7 +105,7 @@ a{
 
 
 .highlight{
-  margin-top:142px;
+  margin-top:128px;
 }
 
 .highlight h3{
@@ -418,7 +418,7 @@ margin-right: 25rem;
 }
 
 .contents4-2-text{
-  padding-top:250px;
+  padding-top:260px;
 }
 
 .contents4-2-text p{
@@ -434,6 +434,7 @@ margin-right: 25rem;
   background-repeat: repeat-x;       /* 横向きにのみ繰り返す */
   padding-bottom:10px;
   padding-right:550px;
+  line-height: 1.5em;
 }
 
 .contents4-2-text h4 span{
@@ -457,7 +458,11 @@ margin-right: 25rem;
 
 .discription span{
   font-weight: normal;
-  font-size:14px;
+  font-size:15px;
+}
+
+.discription button{
+  font-size:15px;
 }
 
 .imformation-button{
@@ -893,7 +898,7 @@ display:none;
 
 @media (max-width:700px){
 main p{
-    font-size:14px;
+    font-size:15px;
   }
 #sub-photo2{
     display:block;
@@ -941,18 +946,36 @@ main p{
   .item-article p{
     margin:0;
     margin-top:8px;
-    font-size:14px;
+    font-size:15px;
   }
    .highlight-number p{
     margin:0;
+     margin-top:16px;
     font-size:40px;
+  }
+  #highlight-heading {
+    font-size:24px;
+  }
+  #works-heading{
+    font-size:24px;
+  }
+  #imformation-heading{
+    font-size:24px;
+  }
+  .highlight{
+    margin-top:24px;
+  }
+  
+  .highlight h3{
+    font-size:20px;
   }
   
 .title h3{
-  font-size:24px;
+  font-size:22px;
   margin-top:72px;
   padding:0;
 }
+
   
   .item-article h3{
     font-size:20px;
@@ -960,13 +983,16 @@ main p{
 
 .title span{
   background:linear-gradient(transparent 0%, #FFF 0%);
-  padding-left:32px;
-  padding-top:20px;
-  padding-bottom:15px;
+  padding-left:16px;
+  padding-top:9px;
+  padding-bottom:7px;
 }
   
   .contents-img {
-    width:90%;
+    width:100%;
+  }
+  .works h4{
+    font-size:20px;
   }
   
   .contents1-3-img {
@@ -974,11 +1000,11 @@ main p{
   }
   
   .contents2-1-img {
-    width:90%;
+    width:100%;
   }
   
   .contents2-2-img {
-    width:90%;
+    width:100%;
   }
   
   .contents3-1-img {
@@ -986,19 +1012,19 @@ main p{
   }
 
   .contents3-2-img {
-    width:90%;
+    width:100%;
   }
   
   .contents3-2-img {
-    width:90%;
+    width:100%;
   }
   
   .contents4-1-img {
-    width:90%;
+    width:100%;
   }
   
   .contents4-2-img {
-    width:90%;
+    width:100%;
   }
   
   .imformation-wrapper {
@@ -1024,6 +1050,32 @@ main p{
   
   footer{
   padding-bottom:32px;
+  }
+  .footer-top a{
+    margin-left:30%;
+  }
+  
+  .works{
+    margin-top:128px;
+  }
+  .imformation{
+     margin-top:128px;
+  }
+  
+  .dog{
+    margin-top:64px;
+  }
+  .cat{
+    margin-top:128px;
+  }
+  .bird{
+    margin-top:128px;
+  }
+  .fish{
+    margin-top:128px;
+  }
+  .contents4-2-text h4 span{
+    font-size:14px;
   }
 }
 /*トップページ*/
@@ -1051,3 +1103,7 @@ main p{
     opacity:0
   }
 }
+
+
+
+
