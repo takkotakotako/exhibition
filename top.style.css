@@ -271,7 +271,7 @@ margin-right: 25rem;
   background:linear-gradient(transparent 0%, #FFF 0%);
   padding-left:40px;
   padding-top:25px;
-  padding-bottom:15px;
+  padding-bottom:14px;
 }
 
 
@@ -438,7 +438,7 @@ margin-right: 25rem;
 }
 
 .contents4-2-text h4 span{
-  font-size:14px;
+  font-size:16px;
 }
 
 .imformation-wrapper {
@@ -458,11 +458,11 @@ margin-right: 25rem;
 
 .discription span{
   font-weight: normal;
-  font-size:15px;
+  font-size:16px;
 }
 
 .discription button{
-  font-size:15px;
+  font-size:16px;
 }
 
 .imformation-button{
@@ -524,7 +524,7 @@ footer {
   display:block;
   text-decoration: none;
   margin-left:40%;
-  padding-top:15px;
+  padding-top:16px;
 }
 
 .footer-top a:hover {
@@ -583,7 +583,7 @@ section{
   
 .global-list li{
   padding-left: 40px;
-  font-size: 15px;
+  font-size: 14px;
 }
   
   .logo{
@@ -712,7 +712,7 @@ margin-right: 0rem;
 }
   
   p{
-    font-size:15px;
+    font-size:16px;
   }
   
 
@@ -891,14 +891,14 @@ display:none;
   }
 
 .footer-imformation span{
-  font-size:14px;
+  font-size:16px;
 }
 
 }
 
 @media (max-width:700px){
 main p{
-    font-size:15px;
+    font-size:16px;
   }
 #sub-photo2{
     display:block;
@@ -946,7 +946,7 @@ main p{
   .item-article p{
     margin:0;
     margin-top:8px;
-    font-size:15px;
+    font-size:16px;
   }
    .highlight-number p{
     margin:0;
@@ -1075,7 +1075,7 @@ main p{
     margin-top:128px;
   }
   .contents4-2-text h4 span{
-    font-size:14px;
+    font-size:16px;
   }
 }
 /*トップページ*/
@@ -1103,7 +1103,3 @@ main p{
     opacity:0
   }
 }
-
-
-
-
