@@ -72,7 +72,7 @@ a{
   overflow: hidden;
 }
 
-.global-list li{
+#global-list li{
   float: left;
   list-style: none;
   padding-left: 64px;
@@ -81,7 +81,19 @@ a{
   display: inline;
 }
 
+#works-heading{
+  padding-top:100px;
+}
+#imformation-heading{
+  padding-top:100px;
+}
+#highlight-heading{
+  padding-top:100px;
+}
 
+.menu-button{
+  display: none;
+}
 .logo{
   padding-top:10px; 
   width: 135px;
@@ -94,18 +106,18 @@ a{
   padding:10px;
 }
 
-.global-list{
+#global-list{
   vertical-align: middle;
 }
 
 
-.global-list a{
+#global-list a{
   text-decoration:none;
 }
 
 
 .highlight{
-  margin-top:128px;
+  margin-top:0px;
 }
 
 .highlight h3{
@@ -166,7 +178,7 @@ margin-right: 25rem;
 }
 
 .works{
-  margin-top:200px;
+  margin-top:72px;
 }
 
 .works h2{
@@ -480,7 +492,7 @@ margin-right: 25rem;
 }
 
 .imformation{
-  margin-top:200px;
+  margin-top:72px;
   margin-bottom:104px;
 }
 
@@ -581,7 +593,7 @@ section{
   top: 0;
   }
   
-.global-list li{
+#global-list li{
   padding-left: 40px;
   font-size: 14px;
 }
@@ -602,6 +614,15 @@ section{
   footer{
     width:100%;
   }
+  #works-heading{
+  padding-top:80px;
+}
+  #imformation-heading{
+  padding-top:80px;
+}
+  #highlight-heading{
+  padding-top:80px;
+}
   
   .item-contents1{
     flex-direction: column-reverse;
@@ -897,6 +918,10 @@ display:none;
 }
 
 @media (max-width:700px){
+section{
+    width:90%;
+    margin:auto;
+  }
 main p{
     font-size:16px;
   }
@@ -904,10 +929,14 @@ main p{
     display:block;
     width:95%;
     margin:auto;
-    margin-top:0px;
-    top:0;
+    margin-top:40px;
+    top:0px;
   }
 .topImage {
+  display:none;
+  height:0;
+  }
+#sub-photo1{
   display:none;
   height:0;
   }
@@ -916,26 +945,85 @@ main p{
   display:none;
   height:0;
   }  
+
   
 #main-photo img{
   display:none;
   height:0;
   } 
-  
+
 #global-nav{
+  position: fixed;
+  width:100%;
+  display: flow-root;
+  padding:0;
+  }
+
+#global-list{
   display:none;
   }
   
-.global-list li{
-  display:none;
+#global-list.open{
+  display: block;
+  display: flow-root;
+  pointer-events: auto;
+  opacity: 1;
+  
+}
+  
+#menu-button{
+  margin: auto 16px auto auto;
+  
+  }
+
+#global-list{
+  margin:auto;
+  padding:0;
+  } 
+  
+#global-list ul{
+width:100%;
+margin:auto;
+padding:0;
+text-align: center;
+margin-bottom: 32px;
+
+  } 
+  
+#global-list li{
+float:none;
+display: block;
+width:100%;
+margin:auto;
+padding:0;
+padding-top:24px;
+padding-bottom: 8px;
+font-size:16px;
 }
   
 .logo{
-    display:none;
+  margin:10px 0;
+  padding-left:16px;
+  display: block;
+  }
+  
+  #menu-button{
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    width: 40px;
+    height: 60px;
+    background-image: url(../画像データ/menu_black_24dp.svg);
+    
+  }
+  
+  #menu-header{
+    display: flex;
   }
   
   #sub-photo1{
-    display:none;
+  display:none;
    height:0;
   }
   
@@ -1103,3 +1191,7 @@ main p{
     opacity:0
   }
 }
+
+
+
+
